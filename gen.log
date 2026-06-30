@@ -1,0 +1,10 @@
+﻿python :   File "<string>", line 317
+At C:\Users\Trajche\AppData\Local\Temp\ps-script-7273d978-7abc-4dec-8ce2-1ef3581f62d5.ps1:106 char:1
++ python -c "
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "<string>", line 317:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    mk = c['mk'].replace('\\\\', '\\\\\\\\').replace('" ,
+                                                     ^
+SyntaxError: unterminated string literal (detected at line 317)
